@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Team</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c502137733.js"></script>
+</head>
+
+<body>
+    <style>
+        .nav {
+            height: 200px;
+            background-color: rgba(255, 84, 84, 0.591);
+            color: rgb(144, 134, 134);
+            display: flex;
+            align-items: center;
+            border-radius: 0 0 10px 10px;
+            margin-bottom: 50px;
+        }
+
+        #box{
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .card {
+            width: 18rem;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 60px;
+            background-color: rgb(111, 172, 233);
+            box-shadow: 2.5px 4px rgb(196, 183, 183);
+        }
+
+        .list-group-item {
+            background-color: rgba(145, 181, 214, 0.913);
+        }
+
+        footer {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+        }
+        #header{
+            background-color: red;
+        }
+    </style>
+
+    <div class="container-fluid" id = "header">
+        <div class="row">
+            <div class="col-12 jumbotron mb-3 team-heading">
+                <h1 class="text-center" >My Team</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="team-area col-12 d-flex justify-content-center">
+                {{ team }}
+            </div>
+        </div>
+    </div>
+    <footer class="footer" align ="center">
+        <a href="https://www.linkedin.com/in/naryanp" target="_blank" class="mr-4">
+            <img src="../assets/images/icons8-linkedin-50.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/naryan/" target="_blank" class="mr-4">
+            <img src="../assets/images/icons8-github-50.png" alt="github">
+        </a>
+        <a href="mailto:aayanpoudel@gmail.com" target="_blank" class="mr-4">
+            <img src="../assets/images/icons8-gmail-50.png" alt="gmail">
+        </a>
+        <h5>Made by Narayan </h5>
+        <p> &copy; 2020 Narayan Poudel</p>
+    </footer>
+</body>
+
+</html>
