@@ -17,4 +17,3 @@ To see the result open index.html from the output folder.
 
 <img width="1437" alt="Screen Shot 2020-04-30 at 8 54 50 AM" src="https://user-images.githubusercontent.com/32229990/80732040-9bc5b200-8ac0-11ea-80fb-f2570167c447.png">
 
-
